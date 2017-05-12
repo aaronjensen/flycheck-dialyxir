@@ -47,7 +47,7 @@
 
 (flycheck-define-checker elixir-dialyxir
   "Elixir dialyxir checker."
-  :command ("mix" "dialyzer" "--fullpath" "--no-check")
+  :command ("mix" "dialyzer" "--no-check")
   :predicate
   (lambda ()
     (and
